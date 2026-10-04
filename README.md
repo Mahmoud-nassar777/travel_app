@@ -66,13 +66,13 @@ travel_app/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hilink-travel-app.git
+git clone (https://github.com/Mahmoud-nassar777/travel_app.git)
 ```
 
 ### 2. Navigate to the project
 
 ```bash
-cd hilink-travel-app
+cd travel-app
 ```
 
 ### 3. Install dependencies
