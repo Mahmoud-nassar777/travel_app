@@ -1,36 +1,149 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏕️ HiLink — Travel & Hiking Landing Page
 
-## Getting Started
+A modern and responsive travel & hiking landing page built with **Next.js, React, TypeScript, and Tailwind CSS**.
 
-First, run the development server:
+HiLink is designed to help travelers and hiking enthusiasts discover destinations, explore outdoor adventures, find their way with offline maps, and connect with a community of adventurers.
+
+## ✨ Features
+
+* 📱 Fully responsive design
+* 🏕️ Modern hiking and travel landing page
+* 🧭 Adventure and destination sections
+* 🗺️ Offline maps concept
+* 📍 Destination information
+* ⭐ Customer reviews section
+* 📅 Adventure scheduling section
+* 🥾 Hiking features and services
+* 📲 Mobile app download section
+* 🔗 Navigation and footer links
+* 🧩 Reusable React components
+* ⚡ Optimized Next.js project structure
+* 🖼️ Local image and SVG assets
+* 🎨 Custom Tailwind CSS utilities
+
+## 🛠️ Tech Stack
+
+| Technology       | Usage                           |
+| ---------------- | ------------------------------- |
+| Next.js          | React framework                 |
+| React            | UI development                  |
+| TypeScript       | Type-safe development           |
+| Tailwind CSS     | Styling and responsive design   |
+| Next/Image       | Image handling and optimization |
+| React Components | Reusable UI architecture        |
+
+## 📂 Project Structure
+
+```text
+travel_app/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+│
+├── components/
+│   ├── Navbar.tsx
+│   ├── Footer.tsx
+│   └── ...
+│
+├── constants/
+│   └── index.ts
+│
+├── public/
+│   ├── images
+│   ├── icons
+│   └── svg assets
+│
+├── tailwind.config.js
+├── postcss.config.js
+├── next.config.ts
+├── package.json
+└── tsconfig.json
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/hilink-travel-app.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd hilink-travel-app
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Production Build
 
-## Learn More
+To create a production build:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To start the production server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm start
+```
 
-## Deploy on Vercel
+## 🎯 What I Practiced
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project helped me practice and strengthen:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Building responsive interfaces with Tailwind CSS
+* Creating reusable React components
+* Working with Next.js App Router
+* Using TypeScript in a React/Next.js project
+* Organizing reusable constants
+* Working with local images and SVG assets
+* Creating responsive navigation
+* Building structured landing-page sections
+* Creating reusable UI utility classes
+* Building a clean and maintainable frontend structure
+
+## 📱 Responsive Design
+
+The interface is designed to provide a consistent experience across:
+
+* 📱 Mobile devices
+* 📲 Tablets
+* 💻 Laptops
+* 🖥️ Desktop screens
+
+## 🌐 Live Demo
+
+**Coming soon**
+
+## 👨‍💻 Author
+
+**Mahmoud Nassar**
+
+Frontend Developer focused on building modern and responsive web applications with React, Next.js, TypeScript, and modern frontend technologies.
+
+* GitHub: https://github.com/Mahmoud-nassar777
+* Portfolio: https://dev-mwn.vercel.app/
+
+## 📄 License
+
+This project is intended for educational and portfolio purposes.
